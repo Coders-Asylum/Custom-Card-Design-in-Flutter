@@ -16,3 +16,9 @@ Test 🧪:
 
 pupspec.yaml updated:
 - custom_card_design/pubspec.yaml
+
+android 🤖:
+- custom_card_design/android/**/*
+
+ios 🍎:
+- custom_card_design/ios/**/**
