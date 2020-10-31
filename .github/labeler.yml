@@ -1,18 +1,18 @@
 Backend 🔌:
-  - project_foodie/lib/backend/**/*
+  - custom_card_design/lib/backend/**/*
 
 main.dart 🚨:
-  - project_foodie/lib/main.dart
+  - custom_card_design/lib/main.dart
 
 Frontend 📱:
-  - project_foodie/lib/screens/* 
-  - project_foodie/lib/screens/**/*
+  - custom_card_design/lib/screens/* 
+  - custom_card_design/lib/screens/**/*
 
 Asset Library Update 📦:
-- project_foodie/assets/*
+- custom_card_design/assets/*
 
 Test 🧪:
-  - project_foodie/test/*
+  - custom_card_design/test/*
 
 pupspec.yaml updated:
-- project_foodie/pubspec.yaml
+- custom_card_design/pubspec.yaml
