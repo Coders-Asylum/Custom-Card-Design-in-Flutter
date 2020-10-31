@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Custom Card Design',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
@@ -26,6 +28,13 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      systemNavigationBarIconBrightness: Brightness.light,
+      statusBarColor: Colors.transparent,
+      systemNavigationBarColor: Colors.amber.withOpacity(0.4),
+    ));
+    SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.top]);
+
     return Container(
         color: Colors.amber,
         child: Center(
@@ -95,6 +104,7 @@ class CustomContainerShapeBorder extends CustomPainter {
     this.fillColor: Colors.white,
     this.radius: 50.0,
   });
+
   @override
   void paint(Canvas canvas, Size size) {
     Path path = new Path();
