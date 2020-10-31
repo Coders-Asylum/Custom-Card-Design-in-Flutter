@@ -1,0 +1,18 @@
+Backend 🔌:
+  - project_foodie/lib/backend/**/*
+
+main.dart 🚨:
+  - project_foodie/lib/main.dart
+
+Frontend 📱:
+  - project_foodie/lib/screens/* 
+  - project_foodie/lib/screens/**/*
+
+Asset Library Update 📦:
+- project_foodie/assets/*
+
+Test 🧪:
+  - project_foodie/test/*
+
+pupspec.yaml updated:
+- project_foodie/pubspec.yaml
