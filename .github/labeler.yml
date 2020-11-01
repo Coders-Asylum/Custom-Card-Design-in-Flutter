@@ -22,3 +22,7 @@ android 🤖:
 
 ios 🍎:
 - custom_card_design/ios/**/**
+
+Circle CI:
+- project-Foodie/.circleci/*
+- project-Foodie/.circleci/**/*
