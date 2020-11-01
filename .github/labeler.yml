@@ -24,5 +24,5 @@ ios 🍎:
 - custom_card_design/ios/**/**
 
 Circle CI:
-- project-Foodie/.circleci/*
-- project-Foodie/.circleci/**/*
+- custom_card_design/.circleci/*
+- custom_card_design/.circleci/**/*
